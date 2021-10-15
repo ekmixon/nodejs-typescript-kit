@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > table > lodash:
+        patched: '2021-10-15T20:37:23.424Z'
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2021-10-15T20:37:23.424Z'
+    - jest > @jest/core > jest-snapshot > @babel/types > lodash:
+        patched: '2021-10-15T20:37:23.424Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-15T20:37:23.424Z'
+    - jest > @jest/core > @jest/transform > @babel/core > lodash:
+        patched: '2021-10-15T20:37:23.424Z'
+    - jest > @jest/core > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-15T20:37:23.424Z'
